@@ -24,7 +24,7 @@
         top: 100px;
         right: 0;
         width: 50%;
-        background-color: rebeccapurple;
+        background-color: var(--bg);
         height: calc(100vh - 100px);
         display: flex;
         flex-direction: column;

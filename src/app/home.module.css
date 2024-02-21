@@ -43,3 +43,20 @@
     flex:1;
 
 }
+@media(max-width: 1024px) {
+    .container{
+      flex-direction: column;
+      text-align: center;
+    }
+    .btns{
+        justify-content: center;
+    }
+}
+@media(max-width: 768px) {
+    .title{
+      font-size: 64px;
+    }
+    .brand{
+        width: 100%;
+    }
+}
